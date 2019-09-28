@@ -10,6 +10,7 @@ import { ParticipantListComponent } from './participant-list/participant-list.co
 import { StatusBarComponent } from './status-bar/status-bar.component';
 import { VotingStageComponent } from './voting-stage/voting-stage.component';
 import { VotingResultComponent } from './voting-result/voting-result.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VotingResultComponent } from './voting-result/voting-result.component';
     ParticipantListComponent,
     StatusBarComponent,
     VotingStageComponent,
-    VotingResultComponent
+    VotingResultComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
